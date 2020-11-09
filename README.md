@@ -84,13 +84,14 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   
 ## Summary
 
- - Model name                          Accuracy    Precision    Recall
-  - Naive Random Oversampling           66.05%      1%           68%
-  - SMOTE Oversampling                  65.46%      1%           61%
-  - ClusterCentroids Undersampling      54.42%      1%           67%
-  - SMOTEEEN Over Under sampling        66.74%      1%           74%
-  - Balanced Random Forest Classifier   78.85%      3%           70%
-  - Easy Ensemble AdaBoost Classifier   93.17%      9%           92%
+ Model name | Accuracy | Precision | Recall
+ -----------|----------|-----------|-------
+  Naive Random Oversampling | 66.05% | 1% | 68%
+  SMOTE Oversampling | 65.46% | 1% | 61%
+  ClusterCentroids Undersampling | 54.42% | 1% | 67%
+  SMOTEEEN Over Under sampling | 66.74% | 1% | 74%
+  Balanced Random Forest Classifier | 78.85% | 3% | 70%
+  Easy Ensemble AdaBoost Classifier | 93.17% | 9% | 92%
 
 Based on the information shown in the table above, we recommend the Easy Ensemble AdaBoost Classifier model as a better predictor of high risk and low risk loan applicants.
 
